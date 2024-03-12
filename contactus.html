@@ -1,0 +1,89 @@
+<html>
+  <head>
+    <style>
+      .container {
+        width: 1200px;
+      }
+      .form1 {
+        width: 600px;
+        border: 2px solid black;
+        margin: 2rem auto;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      }
+      h2 {
+        text-align: center;
+      }
+      .input-group {
+        margin-bottom: 20px;
+      }
+      label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      .common {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+      }
+      .textheight {
+        height: 150px;
+      }
+      button {
+        color: white;
+        background-color: #007bff;
+        width: 100%;
+        padding: 10px;
+        outline: none;
+        border: none;
+        font-size: 1rem;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container form1">
+      <h2>Contact Us</h2>
+
+      <div class="input-group">
+        <label for="name"
+          >I'm interested in <span style="color: red">*</span></label
+        >
+        <select class="common" name="" id="">
+          <option value="">For Admission</option>
+          <option value="">Query</option>
+          <option value="">Complaint</option>
+        </select>
+      </div>
+      <div class="input-group">
+        <label for="Name">Name</label>
+        <input class="common" type="text" />
+      </div>
+      <div class="input-group">
+        <label for="Name">Email</label>
+        <input class="common" type="text" />
+      </div>
+      <div class="input-group">
+        <label for="Name">Mobile/Telephone</label>
+        <input class="common" type="text" />
+      </div>
+      <div class="input-group">
+        <label for="Name">Child Name</label>
+        <input class="common" type="text" />
+      </div>
+      <div class="input-group">
+        <label for="Name">Child Class</label>
+        <input class="common" type="text" />
+      </div>
+      <div class="input-group">
+        <label for="Message">Message*</label><br />
+        <textarea class="common textheight" rows="10"> </textarea>
+      </div>
+      <button>Send Message</button>
+    </div>
+  </body>
+</html>
